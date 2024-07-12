@@ -1,0 +1,149 @@
+
+/* entire container */
+body{
+    
+    margin:0px;
+    font-family: "Roboto";
+    box-sizing: border-box;
+    padding:0px;
+}
+.menu {
+    border: 1px solid #fff;  /* For debugging */
+    width: 1200px;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+.menu-container {
+    color: #fff;
+    background-color: #1f2937;  /* Blue */
+    padding: 40px 0;
+    justify-content: center;
+    display:flex;
+}
+.links{
+    display: flex;
+    justify-content: right;
+    gap:10px;
+    color:#e5e7eb;
+    
+}
+.logo{
+    display:flex;
+    justify-content: left;
+}
+  
+.main-container{
+    color: #fff;
+    background-color: #1f2937; 
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.main{
+    border: 1px solid #fff;  /* For debugging */
+    width: 1200px;
+    display:flex;
+    
+    
+
+}
+.main-title{
+    
+    justify-content: flex-start;
+}
+.main-text{
+    display:flex;
+    
+}
+.main-image{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: gray;
+    width: 500px;
+
+}
+.main-content{
+    display:flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 0px;
+    width: 800px;
+}
+.main-button{
+    background-color: #3882f6;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius:8px;
+}
+
+.main-display-container{
+    color: #fff;
+    background-color:white; 
+    display: flex;
+    justify-content: center; /*entire flex*/
+    padding: 50px;
+
+}
+.main-display{
+    border: 1px solid black;  /* For debugging */
+    width: 1200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center; /*items within flex */
+    align-items: center;
+}
+.main-display-title{
+    color:#1f2937;
+}
+.main-display-boxes{
+    flex-direction: row;
+    display: flex;
+    gap:50px;
+}
+.entire-box{
+    color:#1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.box{
+    width: 120px;
+    height: 120px;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    color: #1f2937;
+    
+}
+.quote-container{
+    
+    background-color:#e5e7eb;
+    display: flex;
+    justify-content: center; /*entire flex*/
+    padding: 50px;
+    align-items: center;
+
+}
+.quote{
+    border: 1px solid black;  /* For debugging */
+    width: 600px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:#1f2937;
+    font-style: italic;
+}
+.quote-author{
+    align-self: flex-end;
+}
+.quote-text{
+    align-self: center;
+    justify-content: center;
+}
